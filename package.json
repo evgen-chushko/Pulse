@@ -3,25 +3,26 @@
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^3.0.0",
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.89.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evgen-chushko/Pulse.git"
+  },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "browser-sync": "^2.26.5",
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^6.1.0",
-    "gulp-clean-css": "^4.2.0",
-    "gulp-cli": "^2.2.0",
-    "gulp-rename": "^1.4.0",
-    "gulp-sass": "^5.0.0",
-    "sass": "^1.35.1"
+  "bugs": {
+    "url": "https://github.com/evgen-chushko/Pulse/issues"
   },
-  "browserslist": [
-    "last 1 version",
-    "> 1%",
-    "maintained node versions",
-    "not dead"
-  ]
+  "homepage": "https://github.com/evgen-chushko/Pulse#readme"
 }
